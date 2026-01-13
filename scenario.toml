@@ -10,5 +10,5 @@ env = { API_KEY = "${GITHUB_SECRET_NAME}", LOG_LEVEL = "INFO" }
 
 [config]
 domain= "wireless"
-test_rounds=11  # Add your assessment config here
+test_rounds=11   # Add your assessment config here
 
