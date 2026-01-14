@@ -1,14 +1,14 @@
 [green_agent]
 agentbeats_id = "019bb789-1010-7860-99ee-1ec2bd55a7e5"
-env = { API_KEY = "${GITHUB_SECRET_NAME}", LOG_LEVEL = "INFO" }
+env = { API_KEY = "${OPENAI_API_KEY}", LOG_LEVEL = "INFO" }
 
 [[participants]]
 agentbeats_id = "019bb79f-e796-7ea3-8dab-21036df3d412"
-name = "Agent"
-env = { API_KEY = "${GITHUB_SECRET_NAME}", LOG_LEVEL = "INFO" }
+name = "purple_agent"
+env = { API_KEY = "${OPENAI_API_KEY}", LOG_LEVEL = "INFO" }
 
 
 [config]
-domain= "wireless"
-test_rounds=11  # Add your assessment config here
+"test_rounds": 11,
+"dataset": "wchw"  # Add your assessment config here
 
