@@ -1,0 +1,17 @@
+{
+  "image_digests": {
+    "green-agent": "ghcr.io/jwentong/wirelessagent-r2@sha256:178001040be44678ddbe7dd726bdc60c0c2d4f3da865aff861e50a9061ab2064",
+    "purple-agent": "ghcr.io/jwentong/wirelessagent-purple@sha256:a861fb74867b47d52516174564a1e278d1c12580d02e8316be6755218a01e2c3",
+    "agentbeats-client": "ghcr.io/agentbeats/agentbeats-client@sha256:13dfe3ef4e583a80e7ce2fe3becd0ce3b879841368a7f4fa40b6ebbabeeb014e"
+  },
+  "timestamp": "2026-01-15T15:00:16Z",
+  "github_actions": {
+    "run_url": "https://github.com/jwentong/Wireless-Bech/actions/runs/21035688456",
+    "run_logs_url": "https://api.github.com/repos/jwentong/Wireless-Bech/actions/runs/21035688456/logs",
+    "ref": "refs/heads/jwentong-patch-21",
+    "sha": "13e9b3245ebf1f180aa960aee56c76b88d145f37",
+    "repository_url": "https://github.com/jwentong/Wireless-Bech",
+    "workflow_ref": "jwentong/Wireless-Bech/.github/workflows/run-scenario.yml@refs/heads/jwentong-patch-21",
+    "workflow_sha": "13e9b3245ebf1f180aa960aee56c76b88d145f37"
+  }
+}
