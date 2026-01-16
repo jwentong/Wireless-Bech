@@ -1,0 +1,34 @@
+{
+  "assessment_id": "jwentong-20260116-manual",
+  "green_agent": {
+    "id": "019bb789-1010-7860-99ee-1ec2bd55a7e5",
+    "name": "WirelessAgent-Bench",
+    "docker_image": "ghcr.io/jwentong/wirelessagent-r2:latest"
+  },
+  "participants": [
+    {
+      "id": "019bb79f-e796-7ea3-8dab-21036df3d412",
+      "name": "WirelessAgent-R2",
+      "docker_image": "ghcr.io/jwentong/wirelessagent-purple:latest",
+      "score": 0.8178,
+      "metrics": {
+        "accuracy": 0.8178,
+        "problems_solved": 57,
+        "total_problems": 70
+      }
+    }
+  ],
+  "config": {
+    "domain": "wireless",
+    "test_rounds": 70,
+    "assessment_mode": "test"
+  },
+  "results": {
+    "overall_score": 0.8178,
+    "accuracy": "81.78%",
+    "model": "qwen-turbo-latest",
+    "workflow": "Round 14 Optimized (MCTS)"
+  },
+  "timestamp": "2026-01-16T00:00:00Z",
+  "status": "completed"
+}

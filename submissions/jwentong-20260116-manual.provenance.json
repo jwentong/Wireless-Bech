@@ -1,0 +1,13 @@
+{
+  "image_digests": {
+    "green-agent": "ghcr.io/jwentong/wirelessagent-r2:latest",
+    "purple-agent": "ghcr.io/jwentong/wirelessagent-purple:latest",
+    "agentbeats-client": "ghcr.io/agentbeats/agentbeats-client:v1.0.0"
+  },
+  "timestamp": "2026-01-16T00:00:00Z",
+  "github_actions": {
+    "repository_url": "https://github.com/jwentong/Wireless-Bech",
+    "ref": "refs/heads/main",
+    "sha": "manual-submission"
+  }
+}

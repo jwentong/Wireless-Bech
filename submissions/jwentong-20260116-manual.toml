@@ -1,0 +1,17 @@
+# WirelessAgent Submission
+# Date: 2026-01-16
+# Participant: jwentong
+
+[green_agent]
+agentbeats_id = "019bb789-1010-7860-99ee-1ec2bd55a7e5"
+env = { OPENAI_API_KEY = "${OPENAI_API_KEY}", LOG_LEVEL = "INFO" }
+
+[[participants]]
+name = "purple-agent"
+agentbeats_id = "019bb79f-e796-7ea3-8dab-21036df3d412"
+env = { OPENAI_API_KEY = "${OPENAI_API_KEY}", LOG_LEVEL = "INFO" }
+
+[config]
+domain = "wireless"
+test_rounds = 70
+assessment_mode = "test"
