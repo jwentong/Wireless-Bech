@@ -1,9 +1,9 @@
-﻿# Green Agent - Wireless Network Orchestrator
+# Green Agent - Wireless Network Orchestrator
 [green_agent]
 agentbeats_id = "019bb789-1010-7860-99ee-1ec2bd55a7e5"
 env = { OPENAI_API_KEY = "${OPENAI_API_KEY}", LOG_LEVEL = "INFO" }
 
-# Purple Agent - Wireless Network Competitor
+# Purple Agent - Wireless Network Competitor  
 [[participants]]
 name = "purple-agent"
 agentbeats_id = "019bb79f-e796-7ea3-8dab-21036df3d412"
@@ -13,4 +13,4 @@ env = { OPENAI_API_KEY = "${OPENAI_API_KEY}", LOG_LEVEL = "INFO" }
 [config]
 domain = "wireless"
 test_rounds = 14
-# Trigger run with latest Purple Agent (FAST MODE) - 2026-01-16
+# Run with FAST MODE Purple Agent - 2026-01-16 12:10
