@@ -1,4 +1,4 @@
-# Green Agent - Wireless Network Orchestrator (裁判/评估者)
+# Green Agent - Wireless Network Orchestrator (裁判/评估者) 
 [green_agent]
 agentbeats_id = "019bb789-1010-7860-99ee-1ec2bd55a7e5"
 env = { OPENAI_API_KEY = "${OPENAI_API_KEY}", LOG_LEVEL = "INFO" }
