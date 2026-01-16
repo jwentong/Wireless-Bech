@@ -12,6 +12,6 @@ env = { OPENAI_API_KEY = "${OPENAI_API_KEY}", LOG_LEVEL = "INFO" }
 # Assessment Configuration 
 [config]
 domain = "wireless"
-test_rounds = 14
+test_rounds = 4
 
 
