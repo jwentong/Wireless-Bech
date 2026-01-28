@@ -10,7 +10,7 @@ agentbeats_id = "019bb79f-e796-7ea3-8dab-21036df3d412"
 env = { OPENAI_API_KEY = "${OPENAI_API_KEY}", LOG_LEVEL = "INFO" }
 
 # Assessment Configuration
-[config]
+[config] 
 domain = "wireless"
 test_rounds = 14
 # Run with FAST MODE Purple Agent - 2026-01-16 12:10
